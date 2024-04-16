@@ -65,7 +65,7 @@ float *read_input(const char *file_path, int *n) {
 }
 
 int main() {
-    const char *file_path = "opt.txt"; 
+    const char *file_path = "optc.txt"; 
     int n;
     float *probs = read_input(file_path, &n);
     float min_cost = optimal_bst(probs, n);
@@ -76,3 +76,4 @@ int main() {
 
     return 0;
 }
+
